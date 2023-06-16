@@ -1,17 +1,17 @@
 public abstract class Pokemon {
-//// Variable declarations ////
+
     private String name;
     private int level;
     private int hp;
 
-//// Constructor ////
+
     public Pokemon(String name, int level, int hp) {
         this.name = name;
         this.level = level;
         this.hp = hp;
     }
 
-//// Getters and setters ////
+
     public String getName() {
         return name;
     }
@@ -36,7 +36,7 @@ public abstract class Pokemon {
         this.hp = hp;
     }
 
-//// Method declarations ////
+
     public void speak() {
         System.out.println("Hello, i'm a Pokemon.");
     }

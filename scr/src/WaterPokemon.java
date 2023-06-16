@@ -1,16 +1,16 @@
 public class WaterPokemon extends Pokemon {
-//// Variable declarations ////
+
     private String food;
     private String sound;
 
-//// Constructor ////
+
     public WaterPokemon(String name, int level, int hp, String food, String sound) {
         super(name, level, hp);
         this.food = food;
         this.sound = sound;
     }
 
-//// Getters and setters ////
+
     public String getFood() {
         return food;
     }
@@ -27,7 +27,7 @@ public class WaterPokemon extends Pokemon {
         this.sound = sound;
     }
 
-//// Method declaration ////
+
     @Override
     public void speak() {
         System.out.println("Hello, i'm a water Pokemon.");

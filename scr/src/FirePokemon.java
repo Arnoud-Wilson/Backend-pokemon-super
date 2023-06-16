@@ -1,16 +1,16 @@
 public class FirePokemon extends Pokemon {
-//// Variable declarations ////
+
     private int height;
     private int weight;
 
-//// Constructor ////
+
     public FirePokemon(String name, int level, int hp, int height, int weight) {
         super(name, level, hp);
         this.height = height;
         this.weight = weight;
     }
 
-//// Getters and setters ////
+
     public int getHeight() {
         return height;
     }
@@ -27,7 +27,7 @@ public class FirePokemon extends Pokemon {
         this.weight = weight;
     }
 
-//// Method declaration ////
+
     @Override
     public void speak() {
         System.out.println("Hello, i'm a fire Pokemon.");

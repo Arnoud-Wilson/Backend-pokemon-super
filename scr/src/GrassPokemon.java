@@ -1,16 +1,16 @@
 public class GrassPokemon extends Pokemon {
-//// Variable declarations ////
+
     private String defence;
     private String attack;
 
-//// Constructor ////
+
     public GrassPokemon(String name, int level, int hp, String defence, String attack) {
         super(name, level, hp);
         this.defence = defence;
         this.attack = attack;
     }
 
-//// Getters and setters ////
+
     public String getDefence() {
         return defence;
     }
@@ -27,7 +27,7 @@ public class GrassPokemon extends Pokemon {
         this.attack = attack;
     }
 
-//// Method declaration ////
+
     @Override
     public void speak() {
         System.out.println("Hello, i'm a grass Pokemon.");

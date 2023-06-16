@@ -1,16 +1,16 @@
 public class ElectricPokemon extends Pokemon {
-//// Variable declarations ////
+
     private String special;
     private int accuracy;
 
-//// Constructor ////
+
     public ElectricPokemon(String name, int level, int hp, String special, int accuracy) {
         super(name, level, hp);
         this.special = special;
         this.accuracy = accuracy;
     }
 
-//// Getters and setters ////
+
     public String getSpecial() {
         return special;
     }
@@ -27,7 +27,7 @@ public class ElectricPokemon extends Pokemon {
         this.accuracy = accuracy;
     }
 
-//// Method declaration ////
+
     @Override
     public void speak() {
         System.out.println("Hello, i'm an electric Pokemon.");
