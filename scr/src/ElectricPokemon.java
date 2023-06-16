@@ -28,6 +28,7 @@ public class ElectricPokemon extends Pokemon {
     }
 
 //// Method declaration ////
+    @Override
     public void speak() {
         System.out.println("Hello, i'm an electric Pokemon.");
     }
